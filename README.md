@@ -15,12 +15,12 @@ npm install @0xsuid/tiny
 ## Usage
 
 ```js
-const tiny = require("@0xsuid/tiny")
+const tiny = require("@0xsuid/tiny");
 
-tiny("So much space.")
+tiny("So much space.");
 // => Somuchspace
 
-tiny(1337)
+tiny(1337);
 // => Uncaught error: Tiny wants a string
 //      at tiny (<anonymous>2:41)
 //      at <anonymous>1:1
